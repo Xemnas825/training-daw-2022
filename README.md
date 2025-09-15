@@ -18,4 +18,17 @@ const
 
 cadenas: 'asd' o "asd". mejor `${var} ` cuando quieres meter variables
 numero: 2
+arrays:   let shopping = ['bread', 'milk' ]
+          let random = ['bread', 1, 2, 5]
+
+for (let i = 0; i<array.length; i++)
+    {console.log(array[i]);}
+
+by item
+for (let item of array) 
+    {console.log(item);}
+
+by index
+for (let item in array)
+    {console.log(array[item]);}
 
